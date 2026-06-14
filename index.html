@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تنظيف شقق الرياض - 300 ريال فقط</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+  var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+  ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    ttq.load('D8I66LJC77U29JSH4320');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #c9a84c;
+      --gold-light: #f0d080;
+      --gold-dark: #a07830;
+      --bg: #f4f6fa;
+      --card-bg: #ffffff;
+      --dark-header: #0d1117;
+      --dark-card: #1a2030;
+      --text-main: #1a1e2e;
+      --text-sub: #4a5568;
+      --text-muted: #8896a8;
+      --green-wa: #25d366;
+      --blue-call: #1e90ff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ═══════════════ HEADER (dark) ═══════════════ */
+    .header {
+      background: linear-gradient(160deg, #0d1117 0%, #1a2030 55%, #0d1117 100%);
+      border-bottom: 3px solid var(--gold);
+      padding: 28px 20px 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% -20%, rgba(201,168,76,0.2) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .header-shimmer {
+      position: absolute;
+      top: 0; left: -100%; width: 60%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(201,168,76,0.07), transparent);
+      animation: shimmer 3.5s infinite;
+    }
+    @keyframes shimmer { to { left: 150%; } }
+
+    .logo-wrap {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .logo-ring {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold), var(--gold-light), var(--gold));
+      padding: 3px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 0 28px rgba(201,168,76,0.55);
+      animation: pulse-ring 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-ring {
+      0%, 100% { box-shadow: 0 0 28px rgba(201,168,76,0.55); }
+      50%       { box-shadow: 0 0 48px rgba(201,168,76,0.9), 0 0 70px rgba(201,168,76,0.3); }
+    }
+
+    .logo-inner {
+      width: 100%; height: 100%;
+      border-radius: 50%;
+      background: #0d1117;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 42px;
+    }
+
+    .logo-badge {
+      position: absolute;
+      top: -4px; left: -4px;
+      background: linear-gradient(135deg, #c9a84c, #f0d080);
+      color: #0d1117;
+      font-size: 10px; font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      white-space: nowrap;
+    }
+
+    .brand-name {
+      font-size: 28px; font-weight: 900;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold-light), var(--gold));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .city-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(201,168,76,0.13);
+      border: 1px solid rgba(201,168,76,0.45);
+      padding: 5px 18px;
+      border-radius: 30px;
+      font-size: 14px; font-weight: 700;
+      color: var(--gold-light);
+    }
+
+    .pulse-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(37,211,102,0.1);
+      border: 1px solid rgba(37,211,102,0.35);
+      color: #25d366;
+      font-size: 12px; font-weight: 700;
+      padding: 4px 13px;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+    .pulse-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #25d366;
+      animation: blink 1.2s ease-in-out infinite;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+
+    /* ═══════════════ MAIN CONTAINER ═══════════════ */
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 28px 16px 130px;
+    }
+
+    /* ═══════════════ SECTION TITLE ═══════════════ */
+    .section-title {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 18px;
+      font-size: 17px; font-weight: 800;
+      color: var(--gold-dark);
+    }
+    .section-title .icon { font-size: 20px; }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(to left, transparent, rgba(201,168,76,0.5));
+      border-radius: 2px;
+    }
+
+    /* ═══════════════ FEATURED SERVICE CARD ═══════════════ */
+    .featured-service {
+      background: linear-gradient(135deg, #1a1200, #2e2000);
+      border: 2px solid var(--gold);
+      border-radius: 20px;
+      padding: 30px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 28px;
+      box-shadow: 0 8px 32px rgba(201,168,76,0.2);
+    }
+
+    .featured-service::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.12) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .featured-service .svc-icon { font-size: 54px; display: block; margin-bottom: 14px; }
+    .featured-service .svc-name {
+      font-size: 22px; font-weight: 900;
+      color: #f0ede6;
+      margin-bottom: 6px;
+    }
+    .featured-service .svc-desc {
+      font-size: 13px; color: rgba(240,237,230,0.65);
+      margin-bottom: 16px;
+    }
+    .featured-service .svc-price {
+      font-size: 52px; font-weight: 900;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+    .featured-service .svc-price span {
+      font-size: 20px; font-weight: 700;
+    }
+    .featured-service .svc-note {
+      display: inline-flex; align-items: center; gap: 5px;
+      margin-top: 12px;
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 12px; font-weight: 700;
+      color: var(--gold-light);
+    }
+
+    /* ═══════════════ WHY US CARDS (white) ═══════════════ */
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .why-card {
+      background: var(--card-bg);
+      border: 1.5px solid #e8eaf0;
+      border-radius: 16px;
+      padding: 20px 14px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .why-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 28px rgba(201,168,76,0.18);
+      border-color: rgba(201,168,76,0.5);
+    }
+
+    .why-card .wc-top {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #fff8e7, #fdeec0);
+      border: 2px solid rgba(201,168,76,0.3);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 12px;
+      font-size: 24px;
+    }
+
+    .why-card .wc-title {
+      font-size: 14px; font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      line-height: 1.35;
+    }
+
+    .why-card .wc-text {
+      font-size: 12px;
+      color: var(--text-sub);
+      line-height: 1.6;
+    }
+
+    .why-card .wc-accent {
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, transparent 60%, rgba(201,168,76,0.08));
+      border-radius: 0 0 16px 0;
+    }
+
+    /* ═══════════════ FEATURES ═══════════════ */
+    .features-list {
+      background: var(--card-bg);
+      border: 1.5px solid #e8eaf0;
+      border-radius: 18px;
+      padding: 20px 16px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 14px 11px 0;
+      border-bottom: 1px solid #f0f2f5;
+      border-right: 3px solid var(--gold);
+      padding-right: 14px;
+      transition: background 0.2s;
+      border-radius: 0 8px 8px 0;
+    }
+    .feature-item:last-child { border-bottom: none; }
+    .feature-item:hover { background: #fffbf0; }
+
+    .feature-check {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px;
+      color: #fff;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .feature-text {
+      font-size: 14px; font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* ═══════════════ CONTACT SECTION ═══════════════ */
+    .contact-section {
+      background: var(--card-bg);
+      border: 1.5px solid #e8eaf0;
+      border-radius: 20px;
+      padding: 26px 20px;
+      margin-bottom: 24px;
+      text-align: center;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+    }
+
+    .contact-label {
+      font-size: 13px; color: var(--text-muted);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .contact-number {
+      font-size: 30px; font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold-light), var(--gold-dark));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 20px;
+      direction: ltr;
+      display: block;
+    }
+
+    .contact-btns {
+      display: flex; gap: 12px; justify-content: center;
+    }
+
+    .btn {
+      flex: 1;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 14px 12px;
+      border-radius: 50px;
+      font-family: 'Cairo', sans-serif;
+      font-size: 15px; font-weight: 800;
+      text-decoration: none;
+      border: none; cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      max-width: 180px;
+    }
+    .btn:hover { transform: scale(1.05); }
+
+    .btn-wa {
+      background: linear-gradient(135deg, #128c3a, var(--green-wa));
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(37,211,102,0.38);
+    }
+    .btn-wa:hover { box-shadow: 0 6px 26px rgba(37,211,102,0.6); }
+
+    .btn-call {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: #0d1117;
+      box-shadow: 0 4px 18px rgba(201,168,76,0.4);
+    }
+    .btn-call:hover { box-shadow: 0 6px 26px rgba(201,168,76,0.65); }
+
+    /* ═══════════════ FLOATING SIDE BUTTONS ═══════════════ */
+    .side-buttons {
+      position: fixed;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 100;
+    }
+
+    .side-btn {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px;
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,0.15);
+      box-shadow: 0 4px 18px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      animation: bob 3s ease-in-out infinite;
+    }
+    .side-btn:nth-child(2) { animation-delay: 0.4s; }
+    .side-btn:nth-child(3) { animation-delay: 0.8s; }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-5px); }
+    }
+    .side-btn:hover { transform: scale(1.14) !important; }
+
+    .side-btn-wa {
+      background: linear-gradient(135deg, #0b7a2a, var(--green-wa));
+      border-color: rgba(37,211,102,0.4);
+    }
+    .side-btn-call-gold {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold-light));
+      border-color: rgba(201,168,76,0.5);
+    }
+    .side-btn-call-blue {
+      background: linear-gradient(135deg, #0050aa, var(--blue-call));
+      border-color: rgba(30,144,255,0.4);
+    }
+
+    /* ═══════════════ FLOATING BOTTOM BAR ═══════════════ */
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-top: 2px solid rgba(201,168,76,0.25);
+      padding: 12px 20px;
+      display: flex;
+      gap: 12px;
+      z-index: 200;
+      width: 100%;
+      max-width: 480px;
+      left: 50%; transform: translateX(-50%);
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
+    }
+
+    .bottom-btn {
+      flex: 1;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 13px;
+      border-radius: 50px;
+      font-family: 'Cairo', sans-serif;
+      font-size: 15px; font-weight: 800;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .bottom-btn:hover { transform: scale(1.03); }
+
+    .bottom-btn-wa {
+      background: linear-gradient(135deg, #128c3a, var(--green-wa));
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(37,211,102,0.4);
+    }
+    .bottom-btn-call {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: #0d1117;
+      box-shadow: 0 4px 14px rgba(201,168,76,0.4);
+    }
+
+    /* ═══════════════ DESIGNER SIGNATURE ═══════════════ */
+    .signature {
+      text-align: center;
+      padding: 18px 16px 0;
+      border-top: 1px solid #e8eaf0;
+      margin-top: 8px;
+    }
+    .signature-by {
+      font-size: 11px; color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+    .signature-name {
+      font-size: 13px; font-weight: 800;
+      color: var(--gold-dark);
+      text-decoration: none;
+      display: inline-flex; align-items: center; gap: 5px;
+      transition: color 0.2s;
+    }
+    .signature-name:hover { color: var(--gold); }
+
+    .footer-copy {
+      text-align: center;
+      padding: 10px 16px 6px;
+      font-size: 11px; color: var(--text-muted);
+    }
+
+    .gold-divider {
+      height: 2px;
+      background: linear-gradient(to left, transparent, rgba(201,168,76,0.35), transparent);
+      margin: 22px 0;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 380px) {
+      .brand-name { font-size: 22px; }
+      .why-grid { gap: 8px; }
+      .side-btn { width: 44px; height: 44px; font-size: 18px; }
+      .featured-service .svc-price { font-size: 42px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ════════════ FLOATING SIDE BUTTONS ════════════ -->
+  <div class="side-buttons">
+    <a class="side-btn side-btn-wa"
+       href="https://wa.me/966547892118"
+       target="_blank" rel="noopener" title="واتساب"
+       data-track="whatsapp">
+      <svg viewBox="0 0 24 24" fill="white" width="22" height="22">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.108.554 4.092 1.524 5.82L.057 23.999l6.349-1.484A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.604-.475-5.13-1.31l-.37-.218-3.776.883.922-3.658-.24-.378A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+      </svg>
+    </a>
+    <a class="side-btn side-btn-call-gold"
+       href="tel:0547892118" title="اتصال"
+       data-track="call">
+      📞
+    </a>
+    <a class="side-btn side-btn-call-blue"
+       href="tel:0547892118" title="اتصال مباشر"
+       data-track="call">
+      📲
+    </a>
+  </div>
+
+  <!-- ════════════ HEADER ════════════ -->
+  <header class="header">
+    <div class="header-shimmer"></div>
+
+    <div class="logo-wrap">
+      <div class="logo-ring">
+        <div class="logo-inner">🧹</div>
+      </div>
+      <span class="logo-badge">✨ احترافي</span>
+    </div>
+
+    <h1 class="brand-name">خدمات النظافة الذهبية</h1>
+    <div class="city-badge">📍 الرياض</div>
+
+    <div class="pulse-badge">
+      <span class="pulse-dot"></span>
+      متاح الآن للحجز
+    </div>
+  </header>
+
+  <!-- ════════════ MAIN CONTENT ════════════ -->
+  <main class="container">
+
+    <!-- FEATURED SERVICE -->
+    <div class="section-title">
+      <span class="icon">🃏</span> عرضنا الحصري
+    </div>
+
+    <div class="featured-service">
+      <span class="svc-icon">🏠</span>
+      <div class="svc-name">تنظيف شقة كاملة</div>
+      <div class="svc-desc">تنظيف شامل لجميع غرف الشقة بأعلى معايير الجودة</div>
+      <div class="svc-price">300 <span>ريال</span></div>
+      <div class="svc-note">🔥 عرض خاص — الرياض فقط</div>
+    </div>
+
+    <div class="gold-divider"></div>
+
+    <!-- WHY US -->
+    <div class="section-title">
+      <span class="icon">🏆</span> لماذا نحن؟
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="wc-top">⚡</div>
+        <div class="wc-title">سرعة في التنفيذ</div>
+        <div class="wc-text">نصل إليك خلال ساعات ونُنهي العمل في وقت قياسي</div>
+        <div class="wc-accent"></div>
+      </div>
+
+      <div class="why-card">
+        <div class="wc-top">🌿</div>
+        <div class="wc-title">مواد آمنة 100%</div>
+        <div class="wc-text">منتجات تنظيف صديقة للبيئة وآمنة للأطفال والحيوانات</div>
+        <div class="wc-accent"></div>
+      </div>
+
+      <div class="why-card">
+        <div class="wc-top">👨‍💼</div>
+        <div class="wc-title">فريق محترف</div>
+        <div class="wc-text">عمالة مدربة ومُختارة بعناية مع ضمان الأمانة</div>
+        <div class="wc-accent"></div>
+      </div>
+
+      <div class="why-card">
+        <div class="wc-top">🛡️</div>
+        <div class="wc-title">ضمان الرضا</div>
+        <div class="wc-text">غير راضٍ؟ نعيد التنظيف مجاناً بدون أي شروط</div>
+        <div class="wc-accent"></div>
+      </div>
+
+      <div class="why-card">
+        <div class="wc-top">🕐</div>
+        <div class="wc-title">24 ساعة / 7 أيام</div>
+        <div class="wc-text">في خدمتك طوال اليوم وجميع أيام الأسبوع</div>
+        <div class="wc-accent"></div>
+      </div>
+
+      <div class="why-card">
+        <div class="wc-top">💰</div>
+        <div class="wc-title">أسعار تنافسية</div>
+        <div class="wc-text">جودة عالية بأفضل الأسعار مع عروض دائمة لعملائنا</div>
+        <div class="wc-accent"></div>
+      </div>
+    </div>
+
+    <div class="gold-divider"></div>
+
+    <!-- FEATURES -->
+    <div class="section-title">
+      <span class="icon">✅</span> مميزاتنا
+    </div>
+
+    <div class="features-list">
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">فريق عمل محترف ومدرّب على أعلى مستوى</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">مواد تنظيف آمنة وعالية الجودة معتمدة</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">خدمة سريعة والتزام تام بالمواعيد</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">أسعار تنافسية وعروض مستمرة على مدار العام</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">ضمان الرضا الكامل أو الإعادة مجاناً</div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-check">✓</div>
+        <div class="feature-text">خبرة أكثر من 10 سنوات في مجال التنظيف</div>
+      </div>
+    </div>
+
+    <div class="gold-divider"></div>
+
+    <!-- CONTACT -->
+    <div class="section-title">
+      <span class="icon">📞</span> تواصل معنا
+    </div>
+
+    <div class="contact-section">
+      <div class="contact-label">رقم التواصل المباشر — الرياض</div>
+      <span class="contact-number">0547892118</span>
+
+      <div class="contact-btns">
+        <a class="btn btn-wa" href="https://wa.me/966547892118" target="_blank" rel="noopener"
+           data-track="whatsapp">
+          <svg viewBox="0 0 24 24" fill="white" width="18" height="18">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.108.554 4.092 1.524 5.82L.057 23.999l6.349-1.484A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.604-.475-5.13-1.31l-.37-.218-3.776.883.922-3.658-.24-.378A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+          </svg>
+          واتساب
+        </a>
+        <a class="btn btn-call" href="tel:0547892118"
+           data-track="call">
+          📞 اتصال
+        </a>
+      </div>
+    </div>
+
+    <!-- SIGNATURE -->
+    <div class="signature">
+      <div class="signature-by">✍️ تم التصميم بواسطة</div>
+      <a class="signature-name"
+         href="https://wa.me/201029095046"
+         target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#a07830" width="14" height="14">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.108.554 4.092 1.524 5.82L.057 23.999l6.349-1.484A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.604-.475-5.13-1.31l-.37-.218-3.776.883.922-3.658-.24-.378A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+        </svg>
+        م. نجوي إبراهيم
+      </a>
+    </div>
+
+    <div class="footer-copy">
+      جميع الحقوق محفوظة © 2025 خدمات النظافة الذهبية — الرياض
+    </div>
+
+  </main>
+
+  <!-- ════════════ FLOATING BOTTOM BAR ════════════ -->
+  <div class="bottom-bar">
+    <a class="bottom-btn bottom-btn-wa"
+       href="https://wa.me/966547892118"
+       target="_blank" rel="noopener"
+       data-track="whatsapp">
+      <svg viewBox="0 0 24 24" fill="white" width="18" height="18">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.108.554 4.092 1.524 5.82L.057 23.999l6.349-1.484A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.853 0-3.604-.475-5.13-1.31l-.37-.218-3.776.883.922-3.658-.24-.378A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+      </svg>
+      واتساب
+    </a>
+    <a class="bottom-btn bottom-btn-call"
+       href="tel:0547892118"
+       data-track="call">
+      📞 اتصال مباشر
+    </a>
+  </div>
+
+  <!-- ════════════ TIKTOK CONTACT TRACKING ════════════ -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-track]').forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        var type = el.getAttribute('data-track');
+        var href = el.getAttribute('href');
+        var isTel = href && href.indexOf('tel:') === 0;
+
+        if (typeof ttq !== 'undefined') {
+          if (isTel) {
+            e.preventDefault();
+            ttq.track('Contact', { content_name: type === 'call' ? 'اتصال هاتفي' : 'تواصل' });
+            setTimeout(function () { window.location.href = href; }, 350);
+          } else {
+            ttq.track('Contact', { content_name: type === 'whatsapp' ? 'واتساب' : 'تواصل' });
+          }
+        }
+      });
+    });
+  });
+  </script>
+
+</body>
+</html>
